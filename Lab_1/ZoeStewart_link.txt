@@ -1,0 +1,6 @@
+Zoe Stewart
+
+
+
+Note: had a little trouble figuring out the "wq" command when creating test.txt
+and had some confusion w the instructions for opening the website, as I thought I had to open it both in the VM and on my home computer...
