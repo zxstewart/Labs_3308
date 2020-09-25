@@ -1,1 +1,4 @@
 Zoe Stewart
+https://github.com/zxstewart/Labs_3308/tree/master/Labs_3308
+
+I got very mixed up on this lab and I know it's a little late... I met some unexpected frustrating roadblocks, as I was having trouble pushing everything to github. I don't know what happened but I've ended up with a bunch of folders with the same thing all titled Labs3308 or Labs_3308, and since I'm already out of time, I have not been able to fix it yet.
