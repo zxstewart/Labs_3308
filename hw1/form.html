@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        footer {
+            text-align: center;
+            background-color: #6c757e;
+        }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Form</title>
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="mypage_bootstrap.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/zxstewart"><img src="https://image.flaticon.com/icons/png/512/37/37318.png"
+                  alt="Github" width="20px" height="20px"></a>
+            </li>
+        </ul>
+      </nav>
+  </head>
+  <body style="margin:10px">
+    <br>
+    <h1>Add New Interest</h1>
+    <form>
+        <div class="form-group">
+            <label for="interestTitle">Name of Interest</label>
+            <input type="text" class="form-control" id="interestTitle" placeholder="Name">
+            <br>
+            <label for="interestInfo">About Interest</label>
+            <textarea class="form-control" id="interestInfo" rows="3"></textarea>
+        </div>
+        <div class="form-row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="fileUpload">Upload Local File</label>
+                    <input type="file" class="form-control-file" id="fileUpload">
+                </div>
+                <div class="form-group">
+                    <label for="radioOpt">On a scale of 1-5, how interested in this are you?</label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="opt1" id="opt1" value="option1" checked>
+                        <label class="form-check-label" for="radio1">
+                          1
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="opt2" id="opt2" value="option2">
+                        <label class="form-check-label" for="radio2">
+                          2
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="opt3" id="opt3" value="option3">
+                        <label class="form-check-label" for="radio3">
+                          3
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="opt4" id="opt4" value="option4">
+                        <label class="form-check-label" for="radio4">
+                          4
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="opt5" id="opt5" value="option5">
+                        <label class="form-check-label" for="radio5">
+                          5
+                        </label>
+                      </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="selectNum">Select Number of Tweets to Display</label>
+                    <select class="form-control" id="selectNum">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <label for="loginInfo">Log in to finish submitting:</label>
+        <div class="form-row">
+            <div class="col">
+                <input type="text" class="form-control" id="inputUser" placeholder="Username">
+                <br>
+            </div>
+            <div class="col">
+                <input type="password" class="form-control" id="inputPass" placeholder="Password">
+            </div>
+        </div>
+        <a href="mypage_bootstrap.html" class="btn btn-secondary" role="button">Submit</a>
+    </form>
+    <br>
+    <footer>
+        <a href="https://linkedin.com"><img src="https://www.fpsa.org/wp-content/uploads/linkedin-logo-copy.png"
+            alt="LinkedIn" width="20px" height="20px"></a>
+    </footer>
+  </body>
+</html>
